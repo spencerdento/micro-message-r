@@ -13,3 +13,6 @@ imap = "2"
 native-tls = "0.2"
 anyhow = "1.0"
 serial = "0.4"
+
+[profile.release]
+debug=true
